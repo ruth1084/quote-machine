@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>Random Quote Machine</title>
+</head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<body>
+  <script src="script.js"></script>
+  <div class="container h-100 wrapper">
+    <div id="quote-box" class="row justify-content-center align-items-center">
+      <div class="card">
+
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa fa-quote-left"></i>
+            <div id="text" style="opacity:1;">
+            </div>
+
+          </h5>
+          <p class="card-text">
+          <div id="author"></div>
+
+          </p>
+          <button id="new-quote" onclick="generateQuote();" class="btn btn-success">New Quote
+          </button>
+
+          <a  id="tweet-quote" target="_top" class="btn btn-primary">Tweet Quote </a>
+          <!-- <div id="quote"></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+
+
+
+</html>
